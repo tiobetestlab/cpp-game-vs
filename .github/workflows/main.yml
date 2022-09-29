@@ -18,7 +18,7 @@ jobs:
         with:
           projectName: 'cpp-game'
           branchName: 'trunk'
-          branchDir: 'C:\BitBucket\RobotFramework\projects\cpp-game-vs\cpp-game-vs'
+          branchDir: 'E:\test\actions-runner\_work\cpp-game-vs\cpp-game-vs'
           ticsConfiguration: 'http://192.168.1.117:42506/tiobeweb/TICS/api/cfg?name=default'
           calc: 'CS,GATE'
           clientToken: 'YjRjM2E1NjgtMGFiZi00MTAwLTk0MzQtY2MxYjZhZDUzYjdjOnVyaXI3WUZycVkyYzZwcQ'
