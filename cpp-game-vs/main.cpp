@@ -13,7 +13,6 @@ int main()
     mypointer = NULL;
     *mypointer = 30;
 
-    wchar_t w = L'Â';
     double velocity;
 
     char x = w;
