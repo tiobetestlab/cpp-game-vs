@@ -22,5 +22,5 @@ jobs:
           ticsConfiguration: 'http://192.168.1.117:42506/tiobeweb/TICS/api/cfg?name=default'
           calc: 'CS,GATE'
           clientToken: 'YjRjM2E1NjgtMGFiZi00MTAwLTk0MzQtY2MxYjZhZDUzYjdjOnVyaXI3WUZycVkyYzZwcQ'
-          tmpDir: C:\BitBucket\RobotFramework\tmp\30696\cpp-game-vs'
+          tmpDir: 'C:\BitBucket\RobotFramework\tmp\30696\cpp-game-vs'
           
