@@ -1,0 +1,22 @@
+name: Build 
+
+on:
+  pull_request: 
+        types: [ opened, edited, synchronize, reopened ] 
+
+jobs:
+  GithubTest:
+    name: TiCS
+    runs-on: self-hosted
+    steps:
+      - uses: actions/checkout@v2
+      - name: TICS Action Run
+        uses: tiobe/tics-github-action@main
+        env: 
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          TICSAUTHTOKEN: 'OWNjZGYyMGItODdlOC00MzMyLTg0MTctNzg1MWM3NTk0OTE5OlRFXy5ldFNzaVZ+SnxTIg'
+        with:
+          projectName: 'cpp-game'
+          ticsConfiguration: 'http://192.168.1.117:42506/tiobeweb/TICS/api/cfg?name=default'
+          calc: 'CS,GATE'
+          clientToken: 'YjRjM2E1NjgtMGFiZi00MTAwLTk0MzQtY2MxYjZhZDUzYjdjOnVyaXI3WUZycVkyYzZwcQ'
