@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: TICS Action Run
-        uses: tiobe/tics-github-action@main
+        uses: tiobe/tics-github-action@v1.1.0-alpha
         env: 
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           TICSAUTHTOKEN: 'YjRjM2E1NjgtMGFiZi00MTAwLTk0MzQtY2MxYjZhZDUzYjdjOnVyaXI3WUZycVkyYzZwcQ'
@@ -19,6 +19,6 @@ jobs:
           projectName: 'cpp-game-vs'
           branchName: 'trunk'
           calc: 'CS,GATE'
-          ticsConfiguration: 'http://192.168.1.117:42506/tiobeweb/TICS/api/cfg?name=nonexistingcfg'
+          ticsConfiguration: 'http://192.168.1.117:42506/tiobweb/TICS/api/cfg?name=nonexistingcfg'
           tmpDir: 'C:\BitBucket\RobotFramework\tmp\30696\cpp-game-vs'
           
