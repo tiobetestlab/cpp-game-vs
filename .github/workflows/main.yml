@@ -16,9 +16,8 @@ jobs:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           TICSAUTHTOKEN: 'YjRjM2E1NjgtMGFiZi00MTAwLTk0MzQtY2MxYjZhZDUzYjdjOnVyaXI3WUZycVkyYzZwcQ'
         with:
-          projectName: 'cpp-game'
+          projectName: 'cpp-game-vs'
           branchName: 'trunk'
-          branchDir: 'E:\test\actions-runner\_work\cpp-game-vs\cpp-game-vs'
           ticsConfiguration: 'http://192.168.1.117:42506/tiobeweb/TICS/api/cfg?name=default'
           calc: 'CS,GATE'
           clientToken: 'YjRjM2E1NjgtMGFiZi00MTAwLTk0MzQtY2MxYjZhZDUzYjdjOnVyaXI3WUZycVkyYzZwcQ'
