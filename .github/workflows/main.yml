@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: TICS Action Run
-        uses: tiobe/tics-github-action@v1.1.0-alpha
+        uses: tiobe/tics-github-action@main
         env: 
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           TICSAUTHTOKEN: 'YjRjM2E1NjgtMGFiZi00MTAwLTk0MzQtY2MxYjZhZDUzYjdjOnVyaXI3WUZycVkyYzZwcQ'
