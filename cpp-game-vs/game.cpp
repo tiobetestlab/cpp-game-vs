@@ -128,15 +128,15 @@ void Assets::open_hands() {
 }
 
 void Assets::middle_finger() {
-    std::cout << "________________$" << std::endl;
-    std::cout << "_____________$____$" << std::endl;
-    std::cout << "_____________$____$" << std::endl;
-    std::cout << "_____________$____$" << std::endl;
-    std::cout << "_____________$____$" << std::endl;
-    std::cout << "_____________$____$" << std::endl;
-    std::cout << "_____________$____$" << std::endl;
+    std::cout << "________$_$__$________$" << std::endl;
+    std::cout << "________$____$_______$____$" << std::endl;
+    std::cout << "________$____$______$____$" << std::endl;
+    std::cout << "________$____$_____$____$" << std::endl;
     std::cout << "________$____$____$____$" << std::endl;
-    std::cout << "________$____$____$____$__$" << std::endl;
+    std::cout << "________$____$___$____$" << std::endl;
+    std::cout << "________$____$__$____$" << std::endl;
+    std::cout << "________$____$_$____$____$" << std::endl;
+    std::cout << "________$____$$____$____$__$" << std::endl;
     std::cout << "$__$____$____$____$____$" << std::endl;
     std::cout << "$____$________________$____$" << std::endl;
     std::cout << "$______$______________________$" << std::endl;
@@ -151,4 +151,5 @@ void Assets::middle_finger() {
     std::cout << "__________$________________$" << std::endl;
     std::cout << "__________$" << std::endl;
 }
+
 
