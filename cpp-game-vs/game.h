@@ -36,7 +36,7 @@ namespace Assets {
 
     void open_hands();
 
-    void middle_finger();
+    void scissor_finger();
 
 }
 

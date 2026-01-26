@@ -85,7 +85,7 @@ void Assets::show(const Rule::Choice choice) {
             break;
 
         case Rule::Choice::SCISSORS:
-            Assets::middle_finger();
+            Assets::scissor_finger();
             break;
 
 	case Rule::Choice::NONE:
@@ -127,7 +127,7 @@ void Assets::open_hands() {
 
 }
 
-void Assets::middle_finger() {
+void Assets::scissor_finger() {
     std::cout << "________$_$__$________$" << std::endl;
     std::cout << "________$____$_______$____$" << std::endl;
     std::cout << "________$____$______$____$" << std::endl;
