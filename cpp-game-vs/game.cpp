@@ -54,7 +54,7 @@ Rule::Choice Rule::GameLogic::operator()(const Rule::Choice lhs, const Rule::Cho
     std::map<std::tuple<Rule::Choice, Rule::Choice>, Rule::Choice> rule;
     rule[std::make_tuple(Rule::Choice::ROCK, Rule::Choice::PAPER)] = Rule::Choice::PAPER;
     rule[std::make_tuple(Rule::Choice::PAPER, Rule::Choice::ROCK)] = Rule::Choice::PAPER;
-    rule[std::make_tuple(Rule::Choice::ROCK, Rule::Choice::SCISSORS)] = Rule::Choice::ROCK;
+    rule[std::make_tuple(Rule::Choice::ROCK, Rule::Choice::SCISSORS)] = Rule::Choice::PAPER;
     rule[std::make_tuple(Rule::Choice::SCISSORS, Rule::Choice::ROCK)] = Rule::Choice::ROCK;
     rule[std::make_tuple(Rule::Choice::SCISSORS, Rule::Choice::PAPER)] = Rule::Choice::SCISSORS;
     rule[std::make_tuple(Rule::Choice::PAPER, Rule::Choice::SCISSORS)] = Rule::Choice::SCISSORS;
